@@ -257,9 +257,6 @@ export const Answer = ({
                             </Stack>
                         </Stack.Item>
                     )}
-                    <Stack.Item className={styles.answerDisclaimerContainer}>
-                        <span className={styles.answerDisclaimer}></span>
-                    </Stack.Item>
                 </Stack>
                 {chevronIsExpanded &&
                     <div className={styles.citationWrapper} >
