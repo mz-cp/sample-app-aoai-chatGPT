@@ -39,14 +39,14 @@ load_dotenv()
 
 # UI configuration (optional)
 UI_TITLE = os.environ.get("UI_TITLE") or "Remit Bot"
-UI_LOGO = os.environ.get("UI_LOGO")
-UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
+UI_LOGO = "static/assets/smp_logo.jpeg"
+UI_CHAT_LOGO = "static/assets/smp_logo.jpeg"
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Chat to SMP's AI chat bot"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
     or "Ask a question about about Send Money Pacific, a service for comparing money transfer costs across the Pacific"
 )
-UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
+UI_FAVICON = "static/assets/smp_logo.jpeg"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
 
