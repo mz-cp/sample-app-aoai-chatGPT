@@ -244,7 +244,7 @@ PROMPTFLOW_RESPONSE_FIELD_NAME = os.environ.get(
     "PROMPTFLOW_RESPONSE_FIELD_NAME", "reply"
 )
 # Frontend Settings via Environment Variables
-AUTH_ENABLED = os.environ.get("AUTH_ENABLED", "false").lower() == "false"
+AUTH_ENABLED = os.environ.get("AUTH_ENABLED", "true").lower() == "true"
 CHAT_HISTORY_ENABLED = (
     AZURE_COSMOSDB_ACCOUNT
     and AZURE_COSMOSDB_DATABASE
